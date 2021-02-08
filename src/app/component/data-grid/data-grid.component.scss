@@ -1,16 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-@import 'ag-grid-community/dist/styles/ag-grid.css';
-@import 'ag-grid-community/dist/styles/ag-theme-balham.css';
-@import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
-
 .ag-cell-label-container {
     /*Necessary to allow for text to grow vertically*/
     height: 100%;
-  }
-
-  .ag-theme-alpine .ag-ltr .ag-cell {
-    border-right: 5px solid #ffffff;
-    margin: 5px;
   }
   
   .ag-header-cell-label {
@@ -57,4 +47,24 @@
     margin-top: 25px;
   }
   
+  /*Floating filters*/
+  .ag-floating-filter-body {
+    height: 50px;
+  }
   
+  .ag-floating-filter-body input {
+    height: 49px;
+  }
+  
+  .ag-floating-filter-button {
+    margin-top: -49px;
+  }
+  
+  .ag-floating-filter-button button {
+    height: 49px;
+  }
+  
+  .ag-floating-filter-body input {
+    font-size: 15px;
+    font-weight: bold;
+  }
